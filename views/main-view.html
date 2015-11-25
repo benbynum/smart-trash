@@ -1,0 +1,16 @@
+<div class="main">
+
+	<div class="container col-sm-8 col-md-6 col-lg-4">
+		<h1 class="display-inline">Smart Trash</h1>
+		<div class="smart-trash fade-6 display-inline" ng-click="addTrasher()" smart-trash>
+			<span class="glyphicon glyphicon-trash display-inline icon-md"></span>
+			<span class="glyphicon glyphicon-trash display-none subtrash-1 icon-xxs fade-4"></span>
+			<span class="glyphicon glyphicon-trash display-none subtrash-2 icon-xxs fade-4"></span>
+			<span class="glyphicon glyphicon-trash display-none subtrash-3 icon-xxs fade-4"></span>
+		</div>
+		
+		<p ng-if="!postDeleted">To allow public deletion of posts for a project I'm working on (whether offensive, off-topic, or other) I created this Smart Trash directive. The idea is that three different users would have to click delete before the content gets deleted. This is to prevent a single user from having the power to wipe out all posts, while still allow for crowd sourced moderation. Depending on total users, the threshold may need to be higher than 3.</p>
+		<pre>Users: {{trashers}}</pre>
+
+	</div>
+</div>

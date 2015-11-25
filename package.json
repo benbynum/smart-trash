@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "An Angular (no SaSS) template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Bynum",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "bootstrap": "^3.3.5",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "live-server": "^0.8.2"
+  },
+  "scripts": {
+    "start": "live-server"
+  }
+}

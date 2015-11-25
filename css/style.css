@@ -1,0 +1,127 @@
+/*************************************************************
+ ************************ Containers *************************
+ *************************************************************/
+
+html, .main {
+	background-color: #768e9b;
+}
+.main {
+	padding: 10px;
+}
+
+pre {
+	margin: 10px 10px 10px 0;
+}
+
+/**********************************************************
+ ************************ Display *************************
+ **********************************************************/
+
+.display-none {
+	display: none;
+}
+.display-inline {
+	display: inline;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-block {
+	display: block;
+}
+
+/********************************************************
+ ************************ Icons *************************
+ ********************************************************/
+
+.icon-xxxs {
+	font-size: .5em;
+}
+
+.icon-xxs {
+	font-size: .8em;
+}
+
+.icon-xs {
+	font-size: 1em;
+}
+
+.icon-sm {
+	font-size: 1.2em;
+}
+
+.icon-md {
+	font-size: 1.5em;
+}
+
+.icon-lg {
+	font-size: 2em;
+}
+
+.icon-lightgray {
+	color: lightgray;
+}
+
+.icon-gray {
+	color: gray;
+}
+
+.icon-darkgray {
+
+}
+
+/*********************************************************
+ ************************ Colors *************************
+ *********************************************************/
+
+/* Primary */
+
+.primary-red {
+	color: #A94442;
+}
+
+/* Secondary */
+
+/* Tertiary */
+
+/* Modifiers */
+
+.fade-2 {
+	opacity: .2;
+}
+.fade-4 {
+	opacity: .4;
+}
+.fade-6 {
+	opacity: .6;
+}
+.fade-8 {
+	opacity: .8;
+}
+.fade-10 {
+	opacity: 1;
+}
+
+/********************************************************
+ ************************ Trash *************************
+ ********************************************************/
+
+.smart-trash {
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none; 
+}
+
+.smart-trash:hover .subtrash-1, .smart-trash:hover .subtrash-2 , .smart-trash:hover .subtrash-3  {
+	display: inline !important;
+}
+
+.smart-trash:hover {
+	opacity: 1;
+}
